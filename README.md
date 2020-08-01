@@ -66,5 +66,9 @@ TelegramBot.getUpdates()
  TelegramMain()
  
 
-***Transcription.py has the Speech-to-text implementation***
+***Speech-to-text implementation is done Transcription.py.
+
+***Text-to-speech is integrated inside the main.py file
+
+
 
