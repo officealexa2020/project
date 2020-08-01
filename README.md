@@ -54,7 +54,7 @@ Sudo apt-get install espeak
 
 pip install SpeechRecognition
 
-***Run the main.py ***
+***Run the main.py***
 
 ***python main.py***
 
