@@ -8,10 +8,6 @@ Developing a conversational Chatbot to assist user with programming queries on S
 •	dialogues.tsv — dialogue phrases from movie subtitles (negative samples).
 •	word_embeddings.tsv — word embeddings trained earlier with StarSpace on StackOverflow query data earlier.
 
-***Models Description***
-
-TF-IDF is used for training of the model
-Steps for execution of Chat Bot on Telegram 
 
 ***Creating a Telegram Bot***
 
