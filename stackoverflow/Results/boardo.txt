@@ -1,0 +1,7 @@
+hello there aur project border is a combination of a bought an Android app this app will simplify the process of taking minutes of the meeting by
+automating the whole process the manager will simply install the board app and will ask other users to get registered which is not compulsory then after
+animal providing and unique ID which is unique for everybody will be entered by the manager and the manager will simply create the meeting from the app and will add the concerning attendance to
+the invitation will be sent after successful creation of the meeting by the organiser with the schedule details as provided by the organiser the users will then get an
+location of the meeting and after accepting the invitation by of the meeting will be added to the schedules of the user as soon as the schedule of the joint meeting approach
+there will be again notified about the meeting and now after everybody has joined the room the bot will recognise the joined users using
+and there was inputs from example from which direction the sound is coming from the bot will automatically start recording the enterprise meeting after
