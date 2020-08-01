@@ -7,8 +7,11 @@ Developing a conversational Chatbot to assist user with programming queries on S
 ***Data description for queries on StackOverflow***
 
 •	tagged_posts.tsv — StackOverflow posts, tagged with one programming language (positive samples).
+
 •	dialogues.tsv — dialogue phrases from movie subtitles (negative samples).
+
 •	word_embeddings.tsv — word embeddings trained earlier with StarSpace on StackOverflow query data earlier.
+
 
 ***Models Description***
 
@@ -49,7 +52,7 @@ TelegramBot.getUpdates()
 
 ***The following steps makes the code run without the telegram dependency.***
 
-Uncomment the following last 4 lines in main.py
+***Uncomment the following last 4 lines in main.py***
 #question="how to install pycharm"
 
 #dialogue_manager = DialogueManager(RESOURCE_PATH)
@@ -57,8 +60,9 @@ Uncomment the following last 4 lines in main.py
 #answer=dialogue_manager.generate_answer(msg)
 
 #print(answer)
-Commenting 5th last line in main.py
+
+***Commenting 5th last line in main.py***
  TelegramMain()
 
-Transcription.py has the Speech-to -text implementation
+***Transcription.py has the Speech-to-text implementation***
 
