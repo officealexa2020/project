@@ -16,7 +16,8 @@ Developing a conversational Chatbot to assist user with programming queries on S
 ***Models Description***
 
 TF-IDF is used for training of the model
-Steps for execution of Chat Bot on Telegram 
+
+## Steps for execution of Chat Bot on Telegram ##
 
 ***Creating a Telegram Bot***
 
@@ -31,11 +32,17 @@ First of all in order to create a telegram bot you have to have a Telegram accou
 •	I decided to choose PlanetPythonBot, which is pretty straightforward considering its functionality.
   
 If everything is okay, you will see bot's token or API access key at the end.
+![alt text](http://url/to/img.png)
 By the way, BotFather is also able to perform following actions for you:
+
 •	Put description to your bot
+
 •	Upload avatar
+
 •	Change access token
+
 •	Delete your bot etc.
+
 
 ***Do the following installations:***
 
