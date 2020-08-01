@@ -62,7 +62,9 @@ TelegramBot.getUpdates()
 #print(answer)
 
 ***Commenting 5th last line in main.py***
+
  TelegramMain()
+ 
 
 ***Transcription.py has the Speech-to-text implementation***
 
