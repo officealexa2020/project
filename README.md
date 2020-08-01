@@ -32,7 +32,7 @@ First of all in order to create a telegram bot you have to have a Telegram accou
 •	I decided to choose PlanetPythonBot, which is pretty straightforward considering its functionality.
   
 If everything is okay, you will see bot's token or API access key at the end.
-![alt text](http://url/to/img.png)
+ 
 By the way, BotFather is also able to perform following actions for you:
 
 •	Put description to your bot
@@ -47,11 +47,17 @@ By the way, BotFather is also able to perform following actions for you:
 ***Do the following installations:***
 
 pip install telepot
+
 pip install telegram or git clone https://github.com/python-telegram-bot/python-telegram-bot 
+
 Sudo apt-get install espeak
+
 pip install SpeechRecognition
-Run the main.py 
-python main.py
+
+***Run the main.py ***
+
+***python main.py***
+
 Following can be used to visualize the code  log.
 TelegramBot = telepot.Bot(token)
 print( TelegramBot.getMe()) 
