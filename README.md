@@ -85,7 +85,10 @@ TelegramBot.getUpdates()
 
 Architecture
 
-![Image of Yaktocat] (https://github.com/officealexa2020/project/blob/master/pic1.png)
+
+[
+![pic1](https://user-images.githubusercontent.com/68907952/89121804-de43c400-d4df-11ea-92bc-410072679d19.png)
+](url)
 
 
 
