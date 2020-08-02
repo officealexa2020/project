@@ -6,7 +6,7 @@ Developing a conversational Chatbot based on Al/ML application to be host within
 
  We have integrated the Chatbot with Telegram messenger @Jarvis_Sih_Chat_Bot
  
- ##Architecture
+ ## Architecture
 
 
 [
@@ -15,11 +15,11 @@ Developing a conversational Chatbot based on Al/ML application to be host within
 
 
 
- ##Input Output Interface
+ ## Input Output Interface
  
  ![pic5](https://user-images.githubusercontent.com/68907952/89122104-3f6c9700-d4e2-11ea-81d5-3f127c139f96.png)
  
- ##Component diagram
+ ## Component diagram
  ![pic4](https://user-images.githubusercontent.com/68907952/89122090-29f76d00-d4e2-11ea-916a-4f59b1613bad.png)
  
 ***Data description for queries on StackOverflow***
@@ -108,8 +108,28 @@ Inherently linked to Natural Language Processing (NLP), intent classification au
 “Hi, I’m a photographer and work with a significant amount of raw files. What kind of storage do you offer? Is it a lifetime membership? For the right price, I’d love to purchase cloud storage.”
 
 With an intent classifier, you could easily locate this query among the numerous user interactions you receive on a daily basis, and automatically categorize it as a clear Purchase intent.
+***BIO scheme for intent classifiaction***
 
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
+
+***Project by***
+Team- Shunya
+
+College- MIT Academy OF Engineering
+
+Team members:
+
+Prajwal Chirde 
+
+Namrata Kumar
+
+Rushikesh Bhadage
+
+Shubham Joshi
+
+Tejas Dhakad
+
+Suprit Gaikwad
 
 
 
