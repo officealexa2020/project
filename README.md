@@ -79,9 +79,11 @@ TelegramBot.getUpdates()
  TelegramMain()
  
 
-***Speech-to-text implementation is done Transcription.py.
+***Speech-to-text implementation is done Transcription.py.***
 
-***Text-to-speech is integrated inside the main.py file
+***Text-to-speech is integrated inside the main.py file***
+Architecture
+![Image of Yaktocat]
 
 
 
