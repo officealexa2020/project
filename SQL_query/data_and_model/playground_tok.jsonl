@@ -1,0 +1,1 @@
+{"table_id":"company","phase":1,"question":"manager henry is working on which projects?","question_tok":["manager","henry","is","working","on","which","projects","?"],"sql":{"sel":0,"conds":[],"agg":0},"query":{"sel":0,"conds":[],"agg":0},"wvi_corenlp":[]}

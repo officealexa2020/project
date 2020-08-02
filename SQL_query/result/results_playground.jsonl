@@ -1,0 +1,1 @@
+{"query": {"agg": 0, "sel": 2, "conds": [[1, 0, "10282"]]}, "table_id": "company", "nlu": "work force reuqied for project 10282", "sql": "SELECT (daysrequired) FROM company WHERE project  = 10282"}
