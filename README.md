@@ -119,12 +119,12 @@ With an intent classifier, you could easily locate this query among the numerous
 
 ***Team members:***
 
-Prajwal Chirde 
-Namrata Kumar
-Rushikesh Bhadage
-Shubham Joshi
-Tejas Dhakad
-Suprit Gaikwad
+Prajwal Chirde, 
+ Namrata Kumar, 
+ Rushikesh Bhadage, 
+ Shubham Joshi, 
+ Tejas Dhakad, 
+ Suprit Gaikwad, 
 
 
 
