@@ -1,8 +1,17 @@
 # Jarvis
 ## Introduction 
 
-Developing a conversational Chatbot to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
+Developing a conversational Chatbot based on Al/ML application to be host within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Deeveloped an algorithm to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
+
  We have integrated the Chatbot with Telegram messenger @Jarvis_Sih_Chat_Bot
+ 
+ ##Architecture
+
+
+[
+![pic1](https://user-images.githubusercontent.com/68907952/89121804-de43c400-d4df-11ea-92bc-410072679d19.png)
+](url)
+
 
 ***Data description for queries on StackOverflow***
 
@@ -83,12 +92,6 @@ TelegramBot.getUpdates()
 
 ***Text-to-speech is integrated inside the main.py file***
 
-Architecture
-
-
-[
-![pic1](https://user-images.githubusercontent.com/68907952/89121804-de43c400-d4df-11ea-92bc-410072679d19.png)
-](url)
 
 
 
