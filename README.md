@@ -84,6 +84,7 @@ TelegramBot.getUpdates()
 ***The following steps makes the code run without the telegram dependency.***
 
 ***Uncomment the following last 4 lines in main.py***
+
 #question="how to install pycharm"
 
 #dialogue_manager = DialogueManager(RESOURCE_PATH)
@@ -108,6 +109,7 @@ Inherently linked to Natural Language Processing (NLP), intent classification au
 “Hi, I’m a photographer and work with a significant amount of raw files. What kind of storage do you offer? Is it a lifetime membership? For the right price, I’d love to purchase cloud storage.”
 
 With an intent classifier, you could easily locate this query among the numerous user interactions you receive on a daily basis, and automatically categorize it as a clear Purchase intent.
+
 ***BIO scheme for intent classifiaction***
 
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
