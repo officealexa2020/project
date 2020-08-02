@@ -113,22 +113,17 @@ With an intent classifier, you could easily locate this query among the numerous
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
 
 ***Project by***
-Team- Shunya
+***Team- Shunya***
 
-College- MIT Academy OF Engineering
+***College- MIT Academy OF Engineering***
 
-Team members:
+***Team members:***
 
 Prajwal Chirde 
-
 Namrata Kumar
-
 Rushikesh Bhadage
-
 Shubham Joshi
-
 Tejas Dhakad
-
 Suprit Gaikwad
 
 
