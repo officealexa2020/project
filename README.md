@@ -83,7 +83,7 @@ TelegramBot.getUpdates()
 
 ***Text-to-speech is integrated inside the main.py file***
 Architecture
-![Image of Yaktocat]
+![Image of Yaktocat] (https://github.com/officealexa2020/project/blob/master/pic1.png)
 
 
 
