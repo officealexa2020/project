@@ -55,6 +55,9 @@ If everything is okay, you will see bot's token or API access key at the end.
 ![tele2](https://user-images.githubusercontent.com/68907952/89154895-67610680-d585-11ea-94d4-51e985dc6bdf.png)
 ![tele](https://user-images.githubusercontent.com/68907952/89154844-53b5a000-d585-11ea-84b7-7d9ea03e59ce.png)
 
+![tel1](https://user-images.githubusercontent.com/68907952/89161304-0e4aa000-d590-11ea-97b0-cfb274ec5693.jpeg)
+![tel2](https://user-images.githubusercontent.com/68907952/89161317-1276bd80-d590-11ea-9fde-06f922377732.jpeg)
+
  
 By the way, BotFather is also able to perform following actions for you:
 
