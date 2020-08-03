@@ -1,0 +1,1 @@
+{"table_id":"company","phase":1,"question":"the average profit earned by the company\r\n","question_tok":["the","average","profit","earned","by","the","company"],"sql":{"sel":0,"conds":[],"agg":0},"query":{"sel":0,"conds":[],"agg":0},"wvi_corenlp":[]}
