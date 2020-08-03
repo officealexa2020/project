@@ -111,6 +111,10 @@ TelegramBot.getUpdates()
 
 ***Text-to-speech is integrated inside the main.py file***
 
+# Results
+
+![result](https://user-images.githubusercontent.com/68907952/89162011-0f300180-d591-11ea-86de-567bd190a4e7.png)
+
 # Theory
 
 ## Intent classification
