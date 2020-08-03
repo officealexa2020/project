@@ -118,6 +118,7 @@ python3 jarvis_egmail.py
 This will talk with STMP gmail server to get all the recent emails and send back reqrested data.
 
 
+
 ***Following can be used to visualize the code log.***
 
 TelegramBot = telepot.Bot(token)
@@ -127,26 +128,13 @@ print( TelegramBot.getMe())
 TelegramBot.getUpdates()
 
 
-***The following steps makes the code run without the telegram dependency.***
-
-***1.Uncomment the following last 4 lines in main.py***
-
-#question="how to install pycharm"
-
-#dialogue_manager = DialogueManager(RESOURCE_PATH)
-
-#answer=dialogue_manager.generate_answer(msg)
-
-#print(answer)
-
-***2.Commenting 5th last line in main.py***
-
- TelegramMain()
- 
 
 ***Speech-to-text implementation is done in Transcription.py.***
 
-***Text-to-speech is integrated inside the main.py file***
+This uses google speech-to-text API , you can refer this link on how to use it : https://realpython.com/python-speech-recognition/
+
+
+***Text-to-speech is integrated inside the jarvis_telegram.py file***
 
 # Results
 
