@@ -85,29 +85,37 @@ If everything is okay, you will see bot's token or API access key at the end.
 
 ***Run the following commands on terminal***
 
-pip install telepot
+pip3 install -r requirements.txt
 
-pip install telegram or git clone https://github.com/python-telegram-bot/python-telegram-bot 
+This will install all the dependencies which are required for the project.
 
-Sudo apt-get install espeak
+you can also use dockerfile to make the needed environment.
 
-pip install SpeechRecognition
 
-pip install python-imap
 
-pip install email-to
+you also need to run a StandNLU server for this you can refer:
+https://github.com/stanfordnlp/python-stanford-corenlp
 
-pip install  pydub 
+How to run the server you can refer this link :
+https://stackoverflow.com/questions/32879532/stanford-nlp-for-python
 
-pip install  contextlib
+Download link:
 
-pip install  glob
+https://stanfordnlp.github.io/CoreNLP/
 
-sudo apt-get install -y dialog
+This help to annotate the sentence given by user , for more details you can refer offical link or github link given above.The server will run locally on 9000 port which will be directly accessed by script annotate_ws.py
 
 ***Execution***
 
-python main.py
+python3 jarvis_telegram.py 
+
+This will make your book uprunning on telegram server and send you databack.
+
+OR
+
+python3 jarvis_egmail.py
+
+This will talk with STMP gmail server to get all the recent emails and send back reqrested data.
 
 
 ***Following can be used to visualize the code log.***
