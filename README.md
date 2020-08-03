@@ -86,8 +86,11 @@ pip3 install -r requirements.txt
 This will install all the dependencies which are required for the project.
 
 you can also use dockerfile to make the needed environment.
+sudo docker build -t pulkit/capturing:1.0 .
 
+sudo docker run -ti --name capturing pulkit/capturing:1.0
 
+following commands for running docker on linux
 
 you also need to run a StandNLU server for this you can refer:
 https://github.com/stanfordnlp/python-stanford-corenlp
