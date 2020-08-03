@@ -112,6 +112,96 @@ With an intent classifier, you could easily locate this query among the numerous
 
 ***BIO scheme for intent classifiaction***
 
+what we actually get from user is random
+words.
+The first thing you need to do when you get the utterance from the user,
+is you need to understand what does the user want,
+and this is the intent classification problem.
+You should think of it as the following,
+which predefined scenario is the user trying to execute?
+
+***Let's look at this Siri example,***
+"How long to drive to the nearest Starbucks?",
+I asked Siri and the Siri tells me the result.
+The traffic to Starbucks is about average so it should take approximately ten minutes.
+And I had such an intent,
+I wanted to know how long to drive to the nearest Starbucks and we can
+mark it up as the intent: navigation.time.closest.
+So, that means that I am interested about time of navigation to the closest thing.
+And I can actually ask it in any other way and
+because our natural language has a lot of options for that.
+But it will still need to understand that this is the same intent.
+Okay. So, I can actually ask the Siri a different question,
+
+Example
+"Give me directions to nearest Starbucks".
+This time, I don't care about how long it takes,
+I just need the directions.
+And so this time, Siri gives me the directions of a map.
+And let's say that this is a different intent like navigation.directions.closest.
+And you actually need to classify different intents,
+you need to distinguish between them,
+and this is classification task and you can measure accuracy here.
+And one more example, "Give me directions to Starbucks."
+This time, I don't say that I need the time or the nearest Starbucks,
+that's why the system doesn't know which Starbucks I want.
+And that's when this system initiate the dialogue with
+me and because it needs additional information like which Starbucks.
+And this is intent: navigation.directions.
+And how to think about this dialogue and how our chat bot,
+a personal assistant actually tracks what we are saying to it.
+
+You should think of intent as actually a form that a user needs to fill in.
+Each intent has a set of fields or
+so-called slots that must be filled in to execute the user request.
+Let's look at the example intent like navigation.directions.
+
+So that the system can build the directions for us,
+it needs to know where we want to go and from where we want to go.
+So, let's say we have two slots here like FROM and TO,
+and the FROM slot is actually optional because
+it can default to current geolocation of the user.
+And TO slot is required,
+we cannot build directions for you if you don't say where you want to go.
+And we need a slot tagger to extract slots from the user utterance.
+Whenever we get the utterance from the user,
+we need to know what slots are there and what intent is there.
+And let's look at slot filling example.
+The user says, "Show me the way to History Museum."
+And what we expect from our slot tagger is to highlight that History Museum part,
+and tell us that History Museum is actually a value of a TO slot in our form.
+And you should think of it as a sequence tagging and let me
+remind you that we solve sequence tagging tasks using 
+***BIO Scheme coding.***
+Here B corresponds to the word of the beginning of the slot,
+
+I corresponds to the word inside the slot,
+
+and O corresponds to all other words that are outside of slots.
+
+Example,
+
+***"Show me the way to History Museum."***
+the text that we want to produce for each token are actually the following,
+"Show me the way to" are outside of any slots,
+that's why they have O,
+"History" is actually the beginning of slot TO,
+and "Museum" is the inside token in the slot TO,
+so that's why it gets that tag.
+You train it as a sequence tagging task in BIO scheme and we
+have overview that in sequence to sequence in previous week.
+Let's say that a slot is considered to be correct if it's range and type are correct.
+And then, we can actually calculate
+the following metrics: we can calculate the recall of our slot tagging,
+we can take all the two slots and find out
+which of them are actually correctly found by our system,
+and that's how we define a recall.
+The precision is the following would take all of
+found slots and we find out which of them are correctly classified slots.
+And you can actually evaluate your slot tagger with F1 measure,
+which is a harmonic mean of precision and recall that we have defined.
+Okay. So, let's see how form filling dialog manager can work in a single turn scenario. 
+
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
 
 ***Project by***
