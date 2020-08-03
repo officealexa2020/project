@@ -17,7 +17,7 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
 - In case of voice the input is converted to text using google api Speech_Recognition.
 
 - The text is fetched to intent classification to understand the user request.
-- Here it is classified into stack Overflow query, MOM, task related to JIRA, Confluence, bitbucket, custom web resources, CRM, or SAP. Further classified into kind of task like fetching data, or issue creation, etc.
+- Here it is classified into stackOverflow query, MOM, task related to JIRA, Confluence. Further classified into kind of task like fetching data, or issue creation, etc.
 - Once the intent is recognized the particular function is executed to perform the task.
 - If needed the result is converted to speech using espeak function.
 - Lastly the output is fetched in summarized form. 
@@ -43,10 +43,6 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
 
 •	word_embeddings.tsv — word embeddings trained earlier with StarSpace on StackOverflow query data earlier.
 
-
-***Models Description***
-
-TF-IDF is used for training of the model
 
 
 ## Deployment 
@@ -109,7 +105,7 @@ This help to annotate the sentence given by user , for more details you can refe
 
 python3 jarvis_telegram.py 
 
-This will make your book uprunning on telegram server and send you databack.
+This will make your book uprunning on telegram server and send you databack.If you want to use telegram you need a key , for that you can refer Deployment given above.  
 
 OR
 
