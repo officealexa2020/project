@@ -2,11 +2,11 @@
 ## Problem statement SM446: Jarvis
 ## Introduction 
 
-Developed a conversational Chatbot based on Al/ML application to be hosted within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Deeveloped an algorithm to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
+Developed a conversational Chatbot based on Al/ML application to be hosted within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Developed an algorithm to assist user with programming queries on StackOverflow using Speech to text and Text to speech algorithms for better user interactions.
 
  We have integrated the Chatbot with Telegram messenger @Jarvis_Sih_Chat_Bot
  
- ## Architecture
+ ## Architecture Diagram
 
 ![arch1](https://user-images.githubusercontent.com/68907952/89160597-f0c90680-d58e-11ea-8f72-dd3b3fe22014.png)
 [
@@ -35,7 +35,9 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
 
 TF-IDF is used for training of the model
 
-## Steps for execution of Chat Bot on Telegram ##
+
+## Deployment 
+***Steps for execution of Chat Bot on Telegram***
 
 ***Creating a Telegram Bot***
 
@@ -55,8 +57,7 @@ If everything is okay, you will see bot's token or API access key at the end.
 ![tele2](https://user-images.githubusercontent.com/68907952/89154895-67610680-d585-11ea-94d4-51e985dc6bdf.png)
 ![tele](https://user-images.githubusercontent.com/68907952/89154844-53b5a000-d585-11ea-84b7-7d9ea03e59ce.png)
 
- 
-By the way, BotFather is also able to perform following actions for you:
+ BotFather is also able to perform following actions for you:
 
 •	Put description to your bot
 
@@ -67,7 +68,9 @@ By the way, BotFather is also able to perform following actions for you:
 •	Delete your bot etc.
 
 
-***Do the following installations:***
+## installation guide:
+
+***Run the following commands on terminal***
 
 pip install telepot
 
@@ -77,11 +80,12 @@ Sudo apt-get install espeak
 
 pip install SpeechRecognition
 
-***Run the main.py***
+***Execution***
 
-***python main.py***
+python main.py
 
-Following can be used to visualize the code  log.
+
+***Following can be used to visualize the code log.***
 
 TelegramBot = telepot.Bot(token)
 
@@ -92,7 +96,7 @@ TelegramBot.getUpdates()
 
 ***The following steps makes the code run without the telegram dependency.***
 
-***Uncomment the following last 4 lines in main.py***
+*** 1.Uncomment the following last 4 lines in main.py***
 
 #question="how to install pycharm"
 
@@ -102,12 +106,12 @@ TelegramBot.getUpdates()
 
 #print(answer)
 
-***Commenting 5th last line in main.py***
+***2.Commenting 5th last line in main.py***
 
  TelegramMain()
  
 
-***Speech-to-text implementation is done Transcription.py.***
+***Speech-to-text implementation is done in Transcription.py.***
 
 ***Text-to-speech is integrated inside the main.py file***
 
@@ -121,9 +125,8 @@ TelegramBot.getUpdates()
 
 Inherently linked to Natural Language Processing (NLP), intent classification automatically finds purpose and goals in text
 
-“What’s the status Of my delivery”
-
-With an intent classifier, you could easily locate this query among the numerous user interactions you receive on a daily basis, and automatically categorize it as a clear status intent.
+Example “What’s the status Of my delivery”
+Classification automatically categorize it as a clear  delivery status intent.
 
 ***BIO scheme for intent classifiaction***
 
@@ -182,13 +185,15 @@ And you should think of it as a sequence tagging and let me
 remind you that we solve sequence tagging tasks using 
 
 ***BIO Scheme coding.***
-Here B corresponds to the word of the beginning of the slot,
+Here,
+
+B corresponds to the word of the beginning of the slot,
 
 I corresponds to the word inside the slot,
 
-and O corresponds to all other words that are outside of slots.
+O corresponds to all other words that are outside of slots.
 
-Example,
+Example1:
 
 ***"Show me the way to History Museum."***
 the text that we want to produce for each token are actually the following,
@@ -210,6 +215,7 @@ found slots and we find out which of them are correctly classified slots.
 And you can actually evaluate your slot tagger with F1 measure,
 which is a harmonic mean of precision and recall that we have defined.
 Okay. So, let's see how form filling dialog manager can work in a single turn scenario. 
+
 
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
 
