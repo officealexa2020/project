@@ -68,7 +68,7 @@ If everything is okay, you will see bot's token or API access key at the end.
 •	Delete your bot etc.
 
 
-## installation guide:
+## Installation guide:
 
 ***Run the following commands on terminal***
 
@@ -79,6 +79,18 @@ pip install telegram or git clone https://github.com/python-telegram-bot/python-
 Sudo apt-get install espeak
 
 pip install SpeechRecognition
+
+pip install python-imap
+
+pip install email-to
+
+pip install  pydub 
+
+pip install  contextlib
+
+pip install  glob
+
+sudo apt-get install -y dialog
 
 ***Execution***
 
@@ -96,7 +108,7 @@ TelegramBot.getUpdates()
 
 ***The following steps makes the code run without the telegram dependency.***
 
-*** 1.Uncomment the following last 4 lines in main.py***
+***1.Uncomment the following last 4 lines in main.py***
 
 #question="how to install pycharm"
 
