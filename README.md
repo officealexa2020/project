@@ -9,7 +9,7 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
  ## Architecture Diagram
  
  ![arch2](https://user-images.githubusercontent.com/68907952/89173364-c5034c00-d5a1-11ea-982a-26040abb2a08.png)
-png)
+
 
 
 ***Steps***
@@ -137,6 +137,7 @@ This uses google speech-to-text API , you can refer this link on how to use it :
 # Results
 
 ![result](https://user-images.githubusercontent.com/68907952/89162011-0f300180-d591-11ea-86de-567bd190a4e7.png)
+
 
 ![res3](https://user-images.githubusercontent.com/68907952/89174104-f2042e80-d5a2-11ea-96f5-d74c71944c37.png)
 
