@@ -7,8 +7,10 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
  We have integrated the Chatbot with Telegram messenger @Jarvis_Sih_Chat_Bot
  
  ## Architecture Diagram
+ 
+ ![arch2](https://user-images.githubusercontent.com/68907952/89173364-c5034c00-d5a1-11ea-982a-26040abb2a08.png)
+png)
 
-![arch1](https://user-images.githubusercontent.com/68907952/89160597-f0c90680-d58e-11ea-8f72-dd3b3fe22014.png)
 
 ***Steps***
 
@@ -86,11 +88,8 @@ pip3 install -r requirements.txt
 This will install all the dependencies which are required for the project.
 
 you can also use dockerfile to make the needed environment.
-sudo docker build -t pulkit/capturing:1.0 .
 
-sudo docker run -ti --name capturing pulkit/capturing:1.0
 
-following commands for running docker on linux
 
 you also need to run a StandNLU server for this you can refer:
 https://github.com/stanfordnlp/python-stanford-corenlp
