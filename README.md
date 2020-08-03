@@ -8,7 +8,7 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
  
  ## Architecture
 
-
+![arch1](https://user-images.githubusercontent.com/68907952/89160597-f0c90680-d58e-11ea-8f72-dd3b3fe22014.png)
 [
 ![pic1](https://user-images.githubusercontent.com/68907952/89121804-de43c400-d4df-11ea-92bc-410072679d19.png)
 ](url)
