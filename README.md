@@ -1,8 +1,8 @@
 # SIH 2020 Team Shunya
-# Problem statement SM446: Jarvis
+## Problem statement SM446: Jarvis
 ## Introduction 
 
-Developing a conversational Chatbot based on Al/ML application to be host within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Deeveloped an algorithm to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
+Developed a conversational Chatbot based on Al/ML application to be hosted within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Deeveloped an algorithm to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
 
  We have integrated the Chatbot with Telegram messenger @Jarvis_Sih_Chat_Bot
  
@@ -50,6 +50,11 @@ First of all in order to create a telegram bot you have to have a Telegram accou
 •	I decided to choose PlanetPythonBot, which is pretty straightforward considering its functionality.
   
 If everything is okay, you will see bot's token or API access key at the end.
+
+
+![tele2](https://user-images.githubusercontent.com/68907952/89154895-67610680-d585-11ea-94d4-51e985dc6bdf.png)
+![tele](https://user-images.githubusercontent.com/68907952/89154844-53b5a000-d585-11ea-84b7-7d9ea03e59ce.png)
+
  
 By the way, BotFather is also able to perform following actions for you:
 
