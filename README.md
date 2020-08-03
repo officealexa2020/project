@@ -138,6 +138,8 @@ This uses google speech-to-text API , you can refer this link on how to use it :
 
 ![result](https://user-images.githubusercontent.com/68907952/89162011-0f300180-d591-11ea-86de-567bd190a4e7.png)
 
+![res3](https://user-images.githubusercontent.com/68907952/89173988-bec19f80-d5a2-11ea-9f67-6e663f68bba2.png)
+
 # Theory
 The input from the user can be taken in the fom of 
 
