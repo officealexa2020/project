@@ -1,5 +1,5 @@
-# Team Shunya
-# Jarvis
+# SIH 2020 Team Shunya
+# Problem statement SM446: Jarvis
 ## Introduction 
 
 Developing a conversational Chatbot based on Al/ML application to be host within a corporate/organization intranet with complete access to corporate/organization resources like JIRA. Confluence. bitbucket, custom web resources, CRM, SAP, etc. Deeveloped an algorithm to assist user with programming queries on StackOverflow using Speech to text, Text to speech algorithms for better user interactions.
@@ -77,9 +77,13 @@ pip install SpeechRecognition
 ***python main.py***
 
 Following can be used to visualize the code  log.
+
 TelegramBot = telepot.Bot(token)
+
 print( TelegramBot.getMe()) 
+
 TelegramBot.getUpdates()
+
 
 ***The following steps makes the code run without the telegram dependency.***
 
@@ -102,28 +106,30 @@ TelegramBot.getUpdates()
 
 ***Text-to-speech is integrated inside the main.py file***
 
-##Intent classification
+# Theory
+
+## Intent classification
 
 Inherently linked to Natural Language Processing (NLP), intent classification automatically finds purpose and goals in text
 
-“Hi, I’m a photographer and work with a significant amount of raw files. What kind of storage do you offer? Is it a lifetime membership? For the right price, I’d love to purchase cloud storage.”
+“What’s the status Of my delivery”
 
-With an intent classifier, you could easily locate this query among the numerous user interactions you receive on a daily basis, and automatically categorize it as a clear Purchase intent.
+With an intent classifier, you could easily locate this query among the numerous user interactions you receive on a daily basis, and automatically categorize it as a clear status intent.
 
 ***BIO scheme for intent classifiaction***
 
-what we actually get from user is random
-words.
+***working***
+
+what we actually get from user is random words.
 The first thing you need to do when you get the utterance from the user,
 is you need to understand what does the user want,
-and this is the intent classification problem.
 You should think of it as the following,
 which predefined scenario is the user trying to execute?
 
 ***Let's look at this Siri example,***
 "How long to drive to the nearest Starbucks?",
 I asked Siri and the Siri tells me the result.
-The traffic to Starbucks is about average so it should take approximately ten minutes.
+"The traffic to Starbucks is about average so it should take approximately ten minutes."
 And I had such an intent,
 I wanted to know how long to drive to the nearest Starbucks and we can
 mark it up as the intent: navigation.time.closest.
@@ -134,24 +140,17 @@ But it will still need to understand that this is the same intent.
 Okay. So, I can actually ask the Siri a different question,
 
 Example
-"Give me directions to nearest Starbucks".
-This time, I don't care about how long it takes,
-I just need the directions.
-And so this time, Siri gives me the directions of a map.
-And let's say that this is a different intent like navigation.directions.closest.
-And you actually need to classify different intents,
-you need to distinguish between them,
-and this is classification task and you can measure accuracy here.
-And one more example, "Give me directions to Starbucks."
-This time, I don't say that I need the time or the nearest Starbucks,
-that's why the system doesn't know which Starbucks I want.
+
+"Give me directions to Starbucks."
+
+Now, the system doesn't know which Starbucks I want.
 And that's when this system initiate the dialogue with
 me and because it needs additional information like which Starbucks.
 And this is intent: navigation.directions.
 And how to think about this dialogue and how our chat bot,
 a personal assistant actually tracks what we are saying to it.
 
-You should think of intent as actually a form that a user needs to fill in.
+***You should think of intent as actually a form that a user needs to fill in.***
 Each intent has a set of fields or
 so-called slots that must be filled in to execute the user request.
 Let's look at the example intent like navigation.directions.
@@ -172,6 +171,7 @@ And what we expect from our slot tagger is to highlight that History Museum part
 and tell us that History Museum is actually a value of a TO slot in our form.
 And you should think of it as a sequence tagging and let me
 remind you that we solve sequence tagging tasks using 
+
 ***BIO Scheme coding.***
 Here B corresponds to the word of the beginning of the slot,
 
@@ -211,12 +211,12 @@ Okay. So, let's see how form filling dialog manager can work in a single turn sc
 
 ***Team members:***
 
-Prajwal Chirde, 
+***Prajwal Chirde, 
  Namrata Kumar, 
  Rushikesh Bhadage, 
  Shubham Joshi, 
  Tejas Dhakad, 
- Suprit Gaikwad, 
+ Suprit Gaikwad,***
 
 
 
