@@ -237,6 +237,16 @@ Okay. So, let's see how form filling dialog manager can work in a single turn sc
 
 ![pic2](https://user-images.githubusercontent.com/68907952/89122101-3b407980-d4e2-11ea-9dcb-562eca449f47.png)
 
+
+***Referances***
+
+
+https://stanfordnlp.github.io/CoreNLP/
+https://realpython.com/python-speech-recognition/
+https://stackoverflow.com/questions/32879532/stanford-nlp-for-python
+
+
+
 ***Project by***
 ***Team- Shunya***
 
