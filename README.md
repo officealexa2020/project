@@ -9,6 +9,19 @@ Developed a conversational Chatbot based on Al/ML application to be hosted withi
  ## Architecture Diagram
 
 ![arch1](https://user-images.githubusercontent.com/68907952/89160597-f0c90680-d58e-11ea-8f72-dd3b3fe22014.png)
+
+***Steps***
+
+- The input from the user can be taken in the form of text or voice input.
+
+- In case of voice the input is converted to text using google api Speech_Recognition.
+
+- The text is fetched to intent classification to understand the user request.
+- Here it is classified into stack Overflow query, MOM, task related to JIRA, Confluence, bitbucket, custom web resources, CRM, or SAP. Further classified into kind of task like fetching data, or issue creation, etc.
+- Once the intent is recognized the particular function is executed to perform the task.
+- If needed the the result is converted to speech using espeak function.
+- Lastly the output is fetched in summarized form according to the requirement. 
+
 [
 ![pic1](https://user-images.githubusercontent.com/68907952/89121804-de43c400-d4df-11ea-92bc-410072679d19.png)
 ](url)
@@ -132,6 +145,7 @@ TelegramBot.getUpdates()
 ![result](https://user-images.githubusercontent.com/68907952/89162011-0f300180-d591-11ea-86de-567bd190a4e7.png)
 
 # Theory
+The input from the user can be taken in the fom of 
 
 ## Intent classification
 
